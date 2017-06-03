@@ -13,7 +13,7 @@
       "id": "bad87fee1348bd9acdd08826",
       "title": "Learn How Script Tags and Document Ready Work",
       "description": [
-        "Now we're ready to learn jQuery, the most popular JavaScript tool of all time.",
+        "Now we're ready to learn jQuery, the most popular JavaScript tool of all time. Don't worry about JavaScript itself - we will cover it soon.",
         "Before we can start using jQuery, we need to add some things to our HTML.",
         "First, add a <code>script</code> element at the top of your page. Be sure to close it on the following line.",
         "Your browser will run any JavaScript inside a <code>script</code> element, including jQuery.",
@@ -1195,12 +1195,12 @@
       "id": "bad87fee1348bd9aed208826",
       "title": "Target the Children of an Element Using jQuery",
       "description": [
-        "When HTML elements are placed one level below another they are called <code>children</code> of that element. For example, the button elements in this challenge with the text \"#target1\", \"#target2\", and \"#target3\" are all <code>children</code> of the <code>&#60;div class=\"well\" id=\"left-well\"&#62;</code> element.",
+        "Many HTML elements have <code>children</code> which <code>inherit</code> their properties from their parent HTML elements.",
+        "For example, every HTML element is a child of your <code>body</code> element, and your \"jQuery Playground\" <code>h3</code> element is a child of your <code>&#60;div class=\"container-fluid\"&#62</code> element.",
         "jQuery has a function called <code>children()</code> that allows you to access the children of whichever element you've selected.",
-        "Here's an example of how you would use the <code>children()</code> function to give the children of your <code>left-well</code> element the color <code>blue</code>:",
+        "Here's an example of how you would use the <code>children()</code> function to give the children of your <code>left-well</code> element the color of blue:",
         "<code>$(\"#left-well\").children().css(\"color\", \"blue\")</code>",
-        "<hr>",
-        "Give all the children of your <code>right-well</code> element the color orange."
+        "Give all the children of your <code>#right-well</code> element a color of orange."
       ],
       "challengeSeed": [
         "fccss",
